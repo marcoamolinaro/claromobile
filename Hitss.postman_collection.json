@@ -1,0 +1,86 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Hitss",
+		"_postman_id": "c363928f-9d22-1448-f464-cad257389702",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post mobile",
+			"request": {
+				"url": "localhost:8080/claro/mobile",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjIiLCJmdWxsbmFtZSI6Ik1hcmNvIE1vbGluYXJvIiwiZXhwIjoxNTkzMzc2MzEzLCJpYXQiOjE1OTMzNzYwMTMsInVzZXJuYW1lIjoibWFyY29hbW9saW5hcm8yQGdtYWlsLmNvbSJ9.3NNkb5PESFmcTIqH5S5T22l3ZAx1vNd3Ygp7tAYcrOqoPb0vE4VveMLJU5MmnXz3LmFVpZr_ZELpxdvti72Vfw",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"price\":1990,\n   \"model\":\"Moto G5 Plus\",\n   \"brand\":\"Motorola\",\n   \"photo\":\"http://www3.claro.com.br/sites/default/files/claro-net-simples_5654b06692637-224x170_565c9453ee1bf.png\",\n   \"date\":\"26/11/2015\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get All mobile",
+			"request": {
+				"url": "localhost:8080/claro/mobile",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjIiLCJmdWxsbmFtZSI6Ik1hcmNvIE1vbGluYXJvIiwiZXhwIjoxNTkzMzc2MzEzLCJpYXQiOjE1OTMzNzYwMTMsInVzZXJuYW1lIjoibWFyY29hbW9saW5hcm8yQGdtYWlsLmNvbSJ9.3NNkb5PESFmcTIqH5S5T22l3ZAx1vNd3Ygp7tAYcrOqoPb0vE4VveMLJU5MmnXz3LmFVpZr_ZELpxdvti72Vfw",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"price\":1990,\n   \"model\":\"Moto G5 Plus\",\n   \"brand\":\"Motorola\",\n   \"photo\":\"http://www3.claro.com.br/sites/default/files/claro-net-simples_5654b06692637-224x170_565c9453ee1bf.png\",\n   \"date\":\"\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get  mobileByCode",
+			"request": {
+				"url": "localhost:8080/claro/mobile",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjIiLCJmdWxsbmFtZSI6Ik1hcmNvIE1vbGluYXJvIiwiZXhwIjoxNTkzMzc2MzEzLCJpYXQiOjE1OTMzNzYwMTMsInVzZXJuYW1lIjoibWFyY29hbW9saW5hcm8yQGdtYWlsLmNvbSJ9.3NNkb5PESFmcTIqH5S5T22l3ZAx1vNd3Ygp7tAYcrOqoPb0vE4VveMLJU5MmnXz3LmFVpZr_ZELpxdvti72Vfw",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"price\":1990,\n   \"model\":\"Moto G5 Plus\",\n   \"brand\":\"Motorola\",\n   \"photo\":\"http://www3.claro.com.br/sites/default/files/claro-net-simples_5654b06692637-224x170_565c9453ee1bf.png\",\n   \"date\":\"\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
